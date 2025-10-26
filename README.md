@@ -17,4 +17,5 @@ HTML, CSS, JavaScript, ExchangeRate API
 3. Click **Convert**
 
 ## 🌐 Live Demo (Optional)
-After uploading to GitHub → enable **GitHub Pages** to host it:
+
+
