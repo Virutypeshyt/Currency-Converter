@@ -16,6 +16,7 @@ HTML, CSS, JavaScript, ExchangeRate API
 2. Select "From" and "To" currencies  
 3. Click **Convert**
 
-## 🌐 Live Demo (Optional)
+## 🌐 Preview
+https://currencyconverter-lime-ten.vercel.app/
 
 
