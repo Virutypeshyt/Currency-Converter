@@ -1,0 +1,88 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #74ABE2, #5563DE);
+}
+
+/* Glassmorphic card */
+.converter-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  text-align: center;
+  color: #fff;
+  width: 320px;
+  transition: 0.3s ease;
+}
+
+.converter-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Inputs & dropdowns */
+.input-group input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255,255,255,0.3);
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+}
+
+select option {
+  color: #333;
+}
+
+/* Button */
+button {
+  background: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #e6e6e6;
+}
+
+/* Result text */
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
